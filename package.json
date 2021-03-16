@@ -8,8 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "base-64": "^1.0.0",
+    "codemirror": "^5.59.4",
+    "css-loader": "^5.1.2",
+    "lzma": "^2.3.2",
     "next": "10.0.8",
     "react": "17.0.1",
+    "react-codemirror2": "^7.2.1",
     "react-dom": "17.0.1"
   }
 }
