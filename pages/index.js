@@ -36,14 +36,14 @@ export default function Home() {
 		<meta name="title" content="ChaseBin">
 		<meta name="description" content="Quickly and easily present visually pleasing code. No storage of any kind.">
 
-		<!-- Open Graph / Facebook -->
+		// <!-- Open Graph / Facebook -->
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://chasebin.vercel.app/">
 		<meta property="og:title" content="ChaseBin">
 		<meta property="og:description" content="Quickly and easily present visually pleasing code. No storage of any kind.">
 		<meta property="og:image" content="preview.png">
 
-		<!-- Twitter -->
+		// <!-- Twitter -->
 		<meta property="twitter:card" content="summary_large_image">
 		<meta property="twitter:url" content="https://chasebin.vercel.app/">
 		<meta property="twitter:title" content="ChaseBin">
