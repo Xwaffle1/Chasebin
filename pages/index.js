@@ -32,7 +32,23 @@ export default function Home() {
         <script src="lzma/src/lzma.js" />
         <script src="client.js" />
         <script src="codemirror/lib/codemirror.js" />
+		<title>ChaseBin</title>
+		<meta name="title" content="ChaseBin">
+		<meta name="description" content="Quickly and easily present visually pleasing code. No storage of any kind.">
 
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://chasebin.vercel.app/">
+		<meta property="og:title" content="ChaseBin">
+		<meta property="og:description" content="Quickly and easily present visually pleasing code. No storage of any kind.">
+		<meta property="og:image" content="preview.png">
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image">
+		<meta property="twitter:url" content="https://chasebin.vercel.app/">
+		<meta property="twitter:title" content="ChaseBin">
+		<meta property="twitter:description" content="Quickly and easily present visually pleasing code. No storage of any kind.">
+		<meta property="twitter:image" content="preview.png">
       </Head>      
       <CodeMirrorNoSSR value={"for (var i=0; i < 10; i++) {\n  console.log(i)\n}"} />
     </div>
