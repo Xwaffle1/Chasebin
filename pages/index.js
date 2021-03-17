@@ -33,8 +33,7 @@ export default function Home() {
         <script src="client.js" />
         <script src="codemirror/lib/codemirror.js" />
 
-      </Head>
-
+      </Head>      
       <CodeMirrorNoSSR value={"for (var i=0; i < 10; i++) {\n  console.log(i)\n}"} />
     </div>
   )

@@ -9,17 +9,19 @@ setTimeout(()=>{
     editor = new CodeMirror(document.getElementById("editor"), {
         lineNumbers: true,
         theme: 'material',
-        mode: 'xml',
+        mode: window.document.getElementById("lang"),
         lineWrapping: false,
         coverGutterNextToScrollbar: true,
         autofocus: true
     });
 
+
+
     let base64 = location.hash.substr(1);
     if (base64.length !== 0) {
         var code = urlToCode(base64)    
     }
-}, 1000); // check again in a second
+}, 500); // check again in a second
 
 
 
