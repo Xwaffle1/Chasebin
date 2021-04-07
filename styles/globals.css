@@ -1,5 +1,8 @@
+@import url("https://dev-cats.github.io/code-snippets/JetBrainsMono.css");
 @import 'codemirror/lib/codemirror.css';
 @import 'codemirror/theme/material.css';
+/* @import 'bootstrap/dist/css/bootstrap.min.css'; */
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -24,27 +27,75 @@ time, mark, audio, video {
 
 
 html,body {
-  background: #222c31;
-  /* padding: 10px 10px; */
-  /* margin: 1px; */
+  /* background: #222c31; */
   display: block;
-  /* height: 100%; */
+  height: 97%;
+  background-color: #263238;
+}
 
+#header{
+	background-color: #003049;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 3px;
+}
+
+.Dropdown-root{
+	vertical-align: bottom;
 }
 
 
 #main,#__next,#editor,.CodeMirror {
-	height: 100%;
+	height: 100% !important;
+	font: normal 24px JetBrainsMono, sans-serif !important;
 }
 
 .title {
 	font-size: xx-large;
-	color: rgb(160, 148, 148);
+	color: #FCBF49;
 	font: normal 24px JetBrainsMono, sans-serif;
 	white-space: nowrap;
 }
 
 .title2 {
 	font-size: xx-large;
-	color: rgb(167, 70, 46);
+	color: #D62828;
+	font: normal 24px JetBrainsMono, sans-serif;
+}
+
+#outer
+{
+    width:100%;
+    text-align: center;
+}
+.inner
+{
+    display: inline-block;
+	align-items: center;
+	align-content: center;
+}
+
+.inner  button
+{
+	height: 40px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.inner option
+{
+	height: 40px;
+}
+
+#lang{
+	height: 40px;
+}
+
+#generatedLink{
+	padding: 15px;
+	background-color: burlywood;
+}
+
+#generatedLink input{
+	min-width: 80%;
+	width: 80%;
 }
